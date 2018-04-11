@@ -4,4 +4,4 @@ If you plan to run the project then the files contained here need to be copied o
 To detect left and right profile of your face run the file : **BothEar.py**.
 To detect if your eyes are closed or not run the file: **ClosedEye.py**.
 Both programs will play an audio file whenever the desired feature is detected i.e your face profile or closed eyes.
-**Mobiledetection.py** has very low detection rate and needs improvement.
+**MobileWithSound.py** has very low detection rate and needs improvement.
