@@ -2,13 +2,8 @@ import numpy as np
 import cv2
 import pyglet
 
-# multiple cascades: https://github.com/Itseez/opencv/tree/master/data/haarcascades
-
-#https://github.com/Itseez/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.x
-
 right_ear = cv2.CascadeClassifier('/home/ganesh/opencv-3.1.0/data/haarcascades/ear_right.xml')
 left_ear=cv2.CascadeClassifier('ear.xml')
-#https://github.com/Itseez/opencv/blob/master/data/haarcascades/haarcascade_eye.xm
 
 cap = cv2.VideoCapture(0)
 
